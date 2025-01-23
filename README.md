@@ -15,5 +15,7 @@ This project analyzes the sentiments of comments on a given YouTube video in rea
 
 ## Project Description
 The YouTube Comment Sentiment Analysis project analyzes and visualizes YouTube video comment sentiments in real-time. Using the YouTube Data API, it fetches comments, preprocesses them by removing irrelevant content (e.g., special characters, URLs, and stopwords), and prepares them for sentiment analysis.
+
 Sentiment analysis is conducted using VADER, a tool optimized for short, informal texts, categorizing sentiments into Positive, Negative, or Neutral. Results are presented interactively via bar chart and pie chart, offering a clear view of public sentiment.
+
 The user-friendly interface, built with Streamlit, provides an easy way for content creators, analysts, and researchers to assess audience reactions, making the project ideal for analyzing sentiments on topics like politics, entertainment, or product reviews.
