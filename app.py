@@ -1,5 +1,8 @@
 import streamlit as st
 from sentiment_analysis import fetch_clean_analyze_comments  
+from dotenv import load_dotenv
+load_dotenv()
+
 
 def main():
     st.title('YouTube Comment Sentiment Analysis')
