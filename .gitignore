@@ -1,9 +1,15 @@
-# Ignore the .env file that contains the API key
+# Ignore .env file 
 .env
 
 # Ignore Python bytecode files
-__pycache__/
 *.pyc
+*.pyo
+__pycache__/
 
-# Ignore VS Code settings 
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore IDE/editor files
 .vscode/
+.idea/
