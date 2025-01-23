@@ -1,11 +1,14 @@
+from dotenv import load_dotenv
+import os
 from googleapiclient.discovery import build
 from nltk.corpus import stopwords
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import re
 import plotly.graph_objects as go
 
-# YouTube API setup
-API_KEY = 'API_KEY' 
+load_dotenv()
+# Retrieve the YouTube API key from the environment
+API_KEY = os.getenv('YOUTUBE_API_KEY') 
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 
