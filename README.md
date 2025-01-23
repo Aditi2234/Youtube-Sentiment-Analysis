@@ -1,4 +1,4 @@
-# Youtube-Sentiment-Analysis
+# Youtube Sentiment Analysis
 
 ## Overview
 
@@ -6,14 +6,14 @@ This project analyzes the sentiments of comments on a given YouTube video in rea
 
 
 ### Key Features
-Fetches comments from a YouTube video in real-time.
+1.Fetches comments from a YouTube video in real-time.
 
-Cleans and preprocesses text data by removing special characters, links, and stopwords.
+2.Cleans and preprocesses text data by removing special characters, links, and stopwords.
 
-Performs sentiment analysis using VADER (Valence Aware Dictionary and sEntiment Reasoner).
+3.Performs sentiment analysis using VADER (Valence Aware Dictionary and sEntiment Reasoner).
 
-Categorizes sentiments into Positive, Negative, and Neutral.
+4.Categorizes sentiments into Positive, Negative, and Neutral.
 
-Visualizes sentiment distribution with interactive bar and pie charts.
+5.Visualizes sentiment distribution with interactive bar and pie charts.
 
-Easy-to-use GUI built with Streamlit.
+6.Easy-to-use GUI built with Streamlit.
