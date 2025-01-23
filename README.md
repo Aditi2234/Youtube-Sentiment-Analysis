@@ -16,4 +16,4 @@ This project analyzes the sentiments of comments on a given YouTube video in rea
 
 5. Visualizes sentiment distribution with interactive bar and pie charts.
 
-6. Easy-to-use GUI built with Streamlit.
+6. Built with Streamlit for easy deployment of the web application.
