@@ -19,3 +19,5 @@ The YouTube Comment Sentiment Analysis project analyzes and visualizes YouTube v
 Sentiment analysis is conducted using VADER, a tool optimized for short, informal texts, categorizing sentiments into Positive, Negative, or Neutral. Results are presented interactively via bar chart and pie chart, offering a clear view of public sentiment.
 
 The user-friendly interface, built with Streamlit, provides an easy way for content creators, analysts, and researchers to assess audience reactions, making the project ideal for analyzing sentiments on topics like politics, entertainment, or product reviews.
+
+## DEMO link

@@ -8,7 +8,7 @@ import re
 import plotly.graph_objects as go
 
 load_dotenv()
-API_KEY = st.secrets["YOUTUBE_API_KEY"]
+API_KEY = os.getenv("YOUTUBE_API_KEY")
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 
