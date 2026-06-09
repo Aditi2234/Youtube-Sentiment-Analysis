@@ -20,4 +20,3 @@ Sentiment analysis is conducted using VADER, a tool optimized for short, informa
 
 The user-friendly interface, built with Streamlit, provides an easy way for content creators, analysts, and researchers to assess audience reactions, making the project ideal for analyzing sentiments on topics like politics, entertainment, or product reviews.
 
-## DEMO link
