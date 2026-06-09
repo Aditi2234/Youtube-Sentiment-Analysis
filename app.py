@@ -1,9 +1,10 @@
 import streamlit as st
+import os
 from sentiment_analysis import fetch_clean_analyze_comments  
 from dotenv import load_dotenv
 load_dotenv()
 
-
+st.write("API KEY:", os.getenv("YOUTUBE_API_KEY"))
 def main():
     st.title('YouTube Comment Sentiment Analysis')
 
